@@ -1,0 +1,242 @@
+/*********************
+GENERAL
+**********************/
+
+body {
+    font-family: 'Poiret One', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logoo{
+    
+    width: 100%;
+    background: #0c0c0d;
+  
+   position: fixed;
+    top:0;
+    
+    
+}
+
+/*********************
+HEADER
+**********************/
+
+header{
+    float:left;
+    margin: 0 0 30px 0;
+    padding: 5px 0 0 0;
+    width: 100%;
+}
+
+#Logo{
+    text-align: center;
+    margin: 0;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4em;
+    line-height: 0.8em;
+}
+h2{
+    font-size: 1.5em;
+    font-weight: normal;
+    margin: -28px 0 0;
+}
+
+
+/*********************
+SECTION
+**********************/
+
+section{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.fixed{
+    
+    
+    margin-top:166px;
+}
+
+
+
+
+
+section p{
+
+   -webkit-column-count: 2; /* Chrome, Safari, Opera */  /* COLOANE */  
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */  /* SPATIU */  
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+    
+    -webkit-column-rule: 4px outset #404040; /* Chrome, Safari, Opera */  /* LINII */  
+    -moz-column-rule: 4px outset #404040; /* Firefox */
+    column-rule: 4px outset #404040;
+}
+/*********************
+NAVIGATION
+**********************/
+
+
+nav {
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    
+  position: fixed;
+    top:137px;
+    
+}
+
+
+nav ul {
+    list-style: none;
+    margin:auto;
+    padding: 0;
+    
+    
+}
+nav li{
+    display: inline-block;
+    
+     
+}
+
+nav a{
+    display: inline-block;
+    font-weight: 800;
+    padding: 15px 10px;
+    margin: 0 20px;
+    
+}
+
+
+
+
+/*********************
+REGISTRATION
+**********************/
+
+.inregistrare{
+    
+   
+    margin-top: 200px;
+}
+
+
+
+#fieldset {
+    
+    border: 2px solid white;
+    
+}
+
+legend {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: beige;
+}
+
+
+input[type="submit"]{
+    margin-left:600px;
+    height: 60px;
+    width: 120px;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: firebrick;
+    border: none;
+    cursor: pointer;
+   
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]
+{
+    border:none;
+   
+   
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]{
+    background: white;
+}
+
+input[type="radio"]:checked+label{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+/*********************
+FOOTER
+**********************/
+
+footer {
+    text-align: center;
+    font-size: 0.75em;
+    clear: both;
+     padding-top: 50px;
+    color: #ccc;
+}
+
+
+.social-icon{
+    height: 30px;
+    width: 30px;
+}
+
+
+
+
+/*********************
+COLOR
+**********************/
+
+body{
+    background-color: #0c0c0d;
+    color: #999; 
+}
+
+header {
+    background: #0c0c0d;
+    border-color:#7b7887;
+}
+
+
+h1, h2 {
+    color: #fff;
+}
+
+/* links */
+a{
+    color: #0c0c0d;
+}
+
+nav{
+    background: #19181b;
+}
+nav a, nav a:visited {
+    color:#fff;
+}
+
+nav a.selected, nav a:hover {
+    color: #000;
+}
+
+
